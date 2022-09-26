@@ -1,0 +1,62 @@
+@import "./files/header";
+@import "./files/container";
+@import "./files/theme-toggler";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(deeppink, purple);
+    padding: 5rem;
+}
+
+
+section{
+    padding: 1rem 7%;
+    min-height: 100%;
+}
+
+.btn{
+    font-size: 2rem;
+    padding: .7rem 4rem;
+    background: rgba(255,255,255,.2);
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem  rgba(0,0,0,.2);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition:.2s linear;
+
+    &:hover{
+        background: rgba(255,255,255,.5);
+        color: #555;
+    }
+}
+
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+
+}

@@ -1,0 +1,17 @@
+
+.theme-toggler{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    backdrop-filter: blur(.4rem);
+    span{
+        display: block;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 2rem 2.5rem;
+        box-shadow: 0 0 0 .5rem rgba(255,255,255,.2),
+                    0 1rem 2rem rgba(0,0,0,.4);
+    }
+}
